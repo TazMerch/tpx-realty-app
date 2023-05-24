@@ -24,7 +24,9 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo">
-            The Property Experts Realty
+            <div>The Property Experts Realty</div>
+            <div className="navbar-logo-bar" />
+            <div>904.410.2000</div>
           </Link>
           <div className="nav-items-container">
             <ul className={click ? "nav-menu active" : "nav-menu"}>
