@@ -23,10 +23,15 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <Link to="/" className="navbar-logo">
-            <div>The Property Experts Realty</div>
-            <div className="navbar-logo-bar" />
-            <div>904.410.2000</div>
+          <Link to="/" className="nav-logo">
+            <img
+              alt="logo"
+              src="/images/tpxicon.png"
+              className="nav-logo-img"
+            ></img>
+            <div className="nav-logo-name">The Property Experts Realty</div>
+            <div className="nav-logo-bar" />
+            <div className="nav-logo-phone">904.410.2000</div>
           </Link>
           <div className="nav-items-container">
             <ul className={click ? "nav-menu active" : "nav-menu"}>
