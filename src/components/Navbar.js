@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "../styles/Navbar.css";
 
 function Navbar() {
@@ -36,36 +37,36 @@ function Navbar() {
           <div className="nav-items-container">
             <ul className={click ? "nav-menu active" : "nav-menu"}>
               <li className="nav-item">
-                <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+                <NavLink to="/" className="nav-links" onClick={closeMobileMenu}>
                   Home
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <Link
+                <NavLink
                   to="/Services"
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
                   Services
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <Link
+                <NavLink
                   to="/Contact"
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
                   Contact
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <Link
+                <NavLink
                   to="/About"
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
                   About
-                </Link>
+                </NavLink>
               </li>
             </ul>
           </div>
