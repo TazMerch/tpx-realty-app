@@ -1,0 +1,37 @@
+.footer {
+    position: relative;
+    bottom: 0;
+    background: black;
+    width: 100%;
+    color: #fff
+}
+
+.footer_container {
+    box-sizing: border-box;
+    width: 100%;
+    display: grid;
+    padding: 20px 0;
+    justify-items: center;
+}
+
+.footer_links {
+    display: grid;
+    grid-template-columns:  repeat(4, 50px);
+    grid-auto-rows: 50px;
+    justify-content: center;
+    width: fit-content;
+    padding-bottom:9px ;
+    gap: 15px;
+}
+
+.footer_copyright {
+    width: fit-content;
+    font-weight: 100;
+    text-align: center;
+}
+
+@media screen and (max-width: 1060px) {
+    .footer_copyright {
+        font-size: 12px;
+    }
+}

@@ -13,3 +13,8 @@
 body {
   background-color: #bdbdbd;
 }
+
+.bubble_item_img {
+  max-height: 100%;
+  max-width: 100%;
+}
