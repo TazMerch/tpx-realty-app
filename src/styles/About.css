@@ -1,3 +1,13 @@
-.about{
-    height: 90vh;
+.about {
+    min-height: calc(100vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 25px;
+}
+
+.about_container {
+    font-size: 60px;
+    max-width: 1300px;
+    font-size: 16px;
 }

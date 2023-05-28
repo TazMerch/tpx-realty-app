@@ -1,7 +1,13 @@
 .home{
+    min-height: calc(100vh - 60px);
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    padding: 15px 25px;
+}
+
+.home_container {
     font-size: 60px;
+    max-width: 1300px;
+    font-size: 16px;
 }
